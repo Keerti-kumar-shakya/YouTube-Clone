@@ -120,5 +120,35 @@ border-radius: 2px;
 .video-title-link {
   text-decoration: none;
   color: black;
+  
 }
+
+@media only screen and (max-width: 1334px) {
+  .Video-grid{
+   
+    grid-template-columns: 1fr 1fr 1fr;
+   
+  }
+
+}
+
+@media only screen and (max-width: 886px) {
+  .Video-grid{
+   
+    grid-template-columns: 1fr 1fr;
+   
+  }
+
+}
+
+@media only screen and (max-width: 614px) {
+  .Video-grid{
+   
+    grid-template-columns: 1fr;
+   
+  }
+
+}
+
+
 
